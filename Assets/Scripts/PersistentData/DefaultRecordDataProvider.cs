@@ -9,6 +9,7 @@ namespace FpvDroneSimulator.PersistentData
             RecordTimePerLevel = new()
             {
                 null,
+                null,
                 null
             },
         };
