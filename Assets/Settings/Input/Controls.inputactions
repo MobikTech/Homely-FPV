@@ -1,0 +1,161 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "LevelScheme",
+            "id": "dac30a7d-b63c-43bb-8fbe-9eefbe62b3dc",
+            "actions": [
+                {
+                    "name": "PitchRollValue",
+                    "type": "Value",
+                    "id": "7088face-5b1a-4a5b-a55c-82d33cffa581",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LiftYawValue",
+                    "type": "Value",
+                    "id": "150577e4-6fe3-42eb-99c5-66dcddc2ab30",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "OnResetPressed",
+                    "type": "Button",
+                    "id": "6bf889f3-a686-4e99-b5c8-808d02744e4a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "OnFlightModeChanged",
+                    "type": "Button",
+                    "id": "f3e47481-844b-4aea-b575-a72d234d84ed",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d9f13d88-a036-4ed2-96ee-1274a56422f4",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PitchRollValue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f1668b06-81fd-495e-b626-cece6795295a",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LiftYawValue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "13c82d17-9235-4874-a509-68b42e15eb75",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnResetPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2479e153-eeb4-400a-aa11-ccb48866e484",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnResetPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f4277ec1-924e-44bb-ab16-f64f60d08fb7",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnFlightModeChanged",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a973af90-c734-493a-abb9-fb306e441719",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnFlightModeChanged",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "MenuScheme",
+            "id": "d0d29187-cf1a-44bb-9b28-3e30b540a14e",
+            "actions": [],
+            "bindings": []
+        },
+        {
+            "name": "General",
+            "id": "05d809fc-784e-4231-afa2-db932b6c9556",
+            "actions": [
+                {
+                    "name": "OnBackPressed",
+                    "type": "Button",
+                    "id": "ea135a08-9909-4c52-b170-4f992b70c328",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7d06cb66-48af-4dfe-aee7-bc8abe55d95d",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnBackPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3ef9dd2c-ed7e-4619-b587-416dbfc263af",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnBackPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
